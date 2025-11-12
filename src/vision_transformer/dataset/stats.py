@@ -5,7 +5,7 @@ from torchvision import transforms
 
 width_total = 0
 height_total = 0 
-path_data = "/home/mrhouma/Documents/VisionTransformer/Vision_Transformer/ai_training_data"
+path_data = "/home/mrhouma/Documents/VisionTransformer/ai_training_data"
 nb = 0
 for dir in os.listdir(path_data) :
     subdir = os.path.join(path_data,dir)
